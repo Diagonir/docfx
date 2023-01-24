@@ -149,11 +149,11 @@
     "content": [
       {
         "lang": "csharp",
-        "value": "public class ExplicitLayoutClass"
+        "value": "[StructLayout(LayoutKind.Explicit)]\npublic class ExplicitLayoutClass"
       },
       {
         "lang": "vb",
-        "value": "Public Class ExplicitLayoutClass"
+        "value": "<StructLayout(LayoutKind.Explicit)>\nPublic Class ExplicitLayoutClass"
       }
     ]
   },

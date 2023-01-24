@@ -99,11 +99,11 @@
         "content": [
           {
             "lang": "csharp",
-            "value": "[Obsolete(\"This member is obsolete.\", true)]\npublic Class1 Keyword { get; }"
+            "value": "public Class1 Keyword { get; }"
           },
           {
             "lang": "vb",
-            "value": "<Obsolete(\"This member is obsolete.\", True)>\nPublic ReadOnly Property Keyword As Class1"
+            "value": "Public ReadOnly Property Keyword As Class1"
           }
         ],
         "parameters": [],
@@ -942,7 +942,7 @@
       },
       {
         "lang": "vb",
-        "value": "Public Class Class1\n    Inherits BaseClass1"
+        "value": "Public Class Class1 Inherits BaseClass1"
       }
     ]
   },
