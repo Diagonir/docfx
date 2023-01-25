@@ -202,7 +202,6 @@
     {
       "uid": "CSharp9.RecordTypes.Person",
       "isExtensionMethod": false,
-      "parent": "CSharp9",
       "name": [
         {
           "lang": "csharp",
@@ -216,31 +215,31 @@
       "nameWithType": [
         {
           "lang": "csharp",
-          "value": "RecordTypes.Person"
+          "value": "RecordTypes.RecordTypes.Person"
         },
         {
           "lang": "vb",
-          "value": "RecordTypes.Person"
+          "value": "RecordTypes.RecordTypes.Person"
         }
       ],
       "fullName": [
         {
           "lang": "csharp",
-          "value": "CSharp9.RecordTypes.Person"
+          "value": "CSharp9.RecordTypes.CSharp9.RecordTypes.Person"
         },
         {
           "lang": "vb",
-          "value": "CSharp9.RecordTypes.Person"
+          "value": "CSharp9.RecordTypes.CSharp9.RecordTypes.Person"
         }
       ],
       "specName": [
         {
           "lang": "csharp",
-          "value": "<xref uid=\"CSharp9.RecordTypes.Person\" text=\"RecordTypes.Person\" alt=\"CSharp9.RecordTypes.Person\"/>"
+          "value": "<xref uid=\"CSharp9.RecordTypes\" text=\"RecordTypes\" alt=\"CSharp9.RecordTypes\"/>.<xref uid=\"CSharp9.RecordTypes.Person\" text=\"Person\" alt=\"CSharp9.RecordTypes.Person\"/>"
         },
         {
           "lang": "vb",
-          "value": "<xref uid=\"CSharp9.RecordTypes.Person\" text=\"RecordTypes.Person\" alt=\"CSharp9.RecordTypes.Person\"/>"
+          "value": "<xref uid=\"CSharp9.RecordTypes\" text=\"RecordTypes\" alt=\"CSharp9.RecordTypes\"/>.<xref uid=\"CSharp9.RecordTypes.Person\" text=\"Person\" alt=\"CSharp9.RecordTypes.Person\"/>"
         }
       ],
       "level": 0,
@@ -265,31 +264,31 @@
       "nameWithType": [
         {
           "lang": "csharp",
-          "value": "RecordTypes.Teacher"
+          "value": "RecordTypes.RecordTypes.Teacher"
         },
         {
           "lang": "vb",
-          "value": "RecordTypes.Teacher"
+          "value": "RecordTypes.RecordTypes.Teacher"
         }
       ],
       "fullName": [
         {
           "lang": "csharp",
-          "value": "CSharp9.RecordTypes.Teacher"
+          "value": "CSharp9.RecordTypes.CSharp9.RecordTypes.Teacher"
         },
         {
           "lang": "vb",
-          "value": "CSharp9.RecordTypes.Teacher"
+          "value": "CSharp9.RecordTypes.CSharp9.RecordTypes.Teacher"
         }
       ],
       "specName": [
         {
           "lang": "csharp",
-          "value": "<xref uid=\"CSharp9.RecordTypes.Teacher\" text=\"RecordTypes.Teacher\" alt=\"CSharp9.RecordTypes.Teacher\"/>"
+          "value": "<xref uid=\"CSharp9.RecordTypes\" text=\"RecordTypes\" alt=\"CSharp9.RecordTypes\"/>.<xref uid=\"CSharp9.RecordTypes.Teacher\" text=\"Teacher\" alt=\"CSharp9.RecordTypes.Teacher\"/>"
         },
         {
           "lang": "vb",
-          "value": "<xref uid=\"CSharp9.RecordTypes.Teacher\" text=\"RecordTypes.Teacher\" alt=\"CSharp9.RecordTypes.Teacher\"/>"
+          "value": "<xref uid=\"CSharp9.RecordTypes\" text=\"RecordTypes\" alt=\"CSharp9.RecordTypes\"/>.<xref uid=\"CSharp9.RecordTypes.Teacher\" text=\"Teacher\" alt=\"CSharp9.RecordTypes.Teacher\"/>"
         }
       ],
       "level": 0,

@@ -589,41 +589,37 @@
         "name": [
           {
             "lang": "csharp",
-            "value": "UnaryPlus"
+            "value": "operator +"
           },
           {
             "lang": "vb",
-            "value": "UnaryPlus"
+            "value": "+"
           }
         ],
         "nameWithType": [
           {
             "lang": "csharp",
-            "value": "DefaultInterfaceMembers.UnaryPlus"
+            "value": "operator DefaultInterfaceMembers.operator +"
           },
           {
             "lang": "vb",
-            "value": "DefaultInterfaceMembers.UnaryPlus"
+            "value": "+"
           }
         ],
         "fullName": [
           {
             "lang": "csharp",
-            "value": "CSharp8.DefaultInterfaceMembers.UnaryPlus"
+            "value": "operator CSharp8.DefaultInterfaceMembers.operator +"
           },
           {
             "lang": "vb",
-            "value": "CSharp8.DefaultInterfaceMembers.UnaryPlus"
+            "value": "+"
           }
         ],
         "specName": [
           {
             "lang": "csharp",
-            "value": "<xref uid=\"CSharp8.DefaultInterfaceMembers.op_UnaryPlus*\" text=\"UnaryPlus\" alt=\"CSharp8.DefaultInterfaceMembers.UnaryPlus\"/>"
-          },
-          {
-            "lang": "vb",
-            "value": "<xref uid=\"CSharp8.DefaultInterfaceMembers.op_UnaryPlus*\" text=\"UnaryPlus\" alt=\"CSharp8.DefaultInterfaceMembers.UnaryPlus\"/>"
+            "value": "operator <xref uid=\"CSharp8.DefaultInterfaceMembers.op_UnaryPlus*\" text=\"+\" alt=\"CSharp8.DefaultInterfaceMembers.operator +\"/>"
           }
         ]
       },

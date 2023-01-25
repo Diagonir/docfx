@@ -92,9 +92,7 @@ type FSharpCompilation (compilation: FSharpCheckProjectResults, projPath: string
 
     /// adds a reference
     let addReference name (ref: ReferenceItem) =
-        if references.ContainsKey name then
-            references.[name].Merge ref
-        else
+        if not (references.ContainsKey name) then
             references.[name] <- ref
 
     /// Adds a reference for the specified MetadataItem.

@@ -223,41 +223,37 @@
         "name": [
           {
             "lang": "csharp",
-            "value": "Increment"
+            "value": "operator ++"
           },
           {
             "lang": "vb",
-            "value": "Increment"
+            "value": "op_Increment"
           }
         ],
         "nameWithType": [
           {
             "lang": "csharp",
-            "value": "StaticAbstractMembersInInterfaces.IGetNext<T>.Increment"
+            "value": "operator StaticAbstractMembersInInterfaces.IGetNext.operator ++"
           },
           {
             "lang": "vb",
-            "value": "StaticAbstractMembersInInterfaces.IGetNext(Of T).Increment"
+            "value": "StaticAbstractMembersInInterfaces.IGetNext.op_Increment"
           }
         ],
         "fullName": [
           {
             "lang": "csharp",
-            "value": "CSharp11.StaticAbstractMembersInInterfaces.IGetNext<T>.Increment"
+            "value": "operator CSharp11.StaticAbstractMembersInInterfaces.IGetNext.operator ++"
           },
           {
             "lang": "vb",
-            "value": "CSharp11.StaticAbstractMembersInInterfaces.IGetNext(Of T).Increment"
+            "value": "CSharp11.StaticAbstractMembersInInterfaces.IGetNext.op_Increment"
           }
         ],
         "specName": [
           {
             "lang": "csharp",
-            "value": "<xref uid=\"CSharp11.StaticAbstractMembersInInterfaces.IGetNext`1.op_Increment*\" text=\"Increment\" alt=\"CSharp11.StaticAbstractMembersInInterfaces.IGetNext&lt;T&gt;.Increment\"/>"
-          },
-          {
-            "lang": "vb",
-            "value": "<xref uid=\"CSharp11.StaticAbstractMembersInInterfaces.IGetNext`1.op_Increment*\" text=\"Increment\" alt=\"CSharp11.StaticAbstractMembersInInterfaces.IGetNext&lt;T&gt;.Increment\"/>"
+            "value": "operator <xref uid=\"CSharp11.StaticAbstractMembersInInterfaces.IGetNext`1.op_Increment*\" text=\"++\" alt=\"CSharp11.StaticAbstractMembersInInterfaces.IGetNext.operator ++\"/>"
           }
         ]
       },

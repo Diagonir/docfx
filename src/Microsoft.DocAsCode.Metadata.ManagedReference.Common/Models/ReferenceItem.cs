@@ -3,9 +3,7 @@
 
 namespace Microsoft.DocAsCode.Metadata.ManagedReference
 {
-    using System;
     using System.Collections.Generic;
-    using System.Diagnostics;
     using System.Linq;
 
     using Newtonsoft.Json;
@@ -50,92 +48,6 @@ namespace Microsoft.DocAsCode.Metadata.ManagedReference
             }
 
             return result;
-        }
-
-        private static T? Merge<T>(T? source, T? target) where T : struct
-        {
-            Debug.Assert(source == null || target == null || Nullable.Equals(source, target));
-            return source ?? target;
-        }
-
-        private static T Merge<T>(T source, T target) where T : class
-        {
-            Debug.Assert(source == null || target == null || object.Equals(source, target));
-            return source ?? target;
-        }
-
-        private static string MergeCommentId(string source, string target)
-        {
-            bool sourceIsNotError = source?.StartsWith("!:", StringComparison.Ordinal) == false;
-            bool targetIsNotError = target?.StartsWith("!:", StringComparison.Ordinal) == false;
-            if (sourceIsNotError && targetIsNotError)
-            {
-                return Merge(source, target);
-            }
-            if (sourceIsNotError)
-            {
-                return source;
-            }
-            if (targetIsNotError)
-            {
-                return target;
-            }
-            return null;
-        }
-
-        public void Merge(ReferenceItem other)
-        {
-            if (other == null)
-            {
-                throw new ArgumentNullException(nameof(other));
-            }
-            IsDefinition = Merge(other.IsDefinition, IsDefinition);
-            Definition = Merge(other.Definition, Definition);
-            Parent = Merge(other.Parent, Parent);
-            if (IsDefinition == true)
-            {
-                CommentId = MergeCommentId(other.CommentId, CommentId);
-            }
-
-            if (other.Parts != null && Parts != null)
-            {
-                foreach (var pair in other.Parts)
-                {
-                    var sourceParts = pair.Value;
-                    if (Parts.TryGetValue(pair.Key, out List<LinkItem> targetParts))
-                    {
-                        if (sourceParts.Count == 0)
-                        {
-                            continue;
-                        }
-                        if (targetParts.Count == 0)
-                        {
-                            targetParts.AddRange(sourceParts);
-                            continue;
-                        }
-
-                        Debug.Assert(sourceParts.Count == targetParts.Count);
-
-                        if (sourceParts.Count == targetParts.Count)
-                        {
-                            for (int i = 0; i < sourceParts.Count; i++)
-                            {
-                                Debug.Assert(sourceParts[i].Name == targetParts[i].Name);
-                                targetParts[i].IsExternalPath &= sourceParts[i].IsExternalPath;
-                                targetParts[i].Href = targetParts[i].Href ?? sourceParts[i].Href;
-                            }
-                        }
-                    }
-                    else
-                    {
-                        Parts.Add(pair.Key, pair.Value);
-                    }
-                }
-            }
-            else
-            {
-                Parts = Parts ?? other.Parts;
-            }
         }
     }
 

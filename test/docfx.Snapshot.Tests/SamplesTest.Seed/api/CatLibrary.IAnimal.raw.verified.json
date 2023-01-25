@@ -698,41 +698,41 @@
         "name": [
           {
             "lang": "csharp",
-            "value": "Item"
+            "value": "this"
           },
           {
             "lang": "vb",
-            "value": "Item"
+            "value": "this[]"
           }
         ],
         "nameWithType": [
           {
             "lang": "csharp",
-            "value": "IAnimal.Item"
+            "value": "this"
           },
           {
             "lang": "vb",
-            "value": "IAnimal.Item"
+            "value": "IAnimal.this[]"
           }
         ],
         "fullName": [
           {
             "lang": "csharp",
-            "value": "CatLibrary.IAnimal.Item"
+            "value": "this"
           },
           {
             "lang": "vb",
-            "value": "CatLibrary.IAnimal.Item"
+            "value": "CatLibrary.IAnimal.this[]"
           }
         ],
         "specName": [
           {
             "lang": "csharp",
-            "value": "<xref uid=\"CatLibrary.IAnimal.Item*\" text=\"Item\" alt=\"CatLibrary.IAnimal.Item\"/>"
+            "value": "<xref uid=\"CatLibrary.IAnimal.Item*\" text=\"this\" alt=\"this\"/>"
           },
           {
             "lang": "vb",
-            "value": "<xref uid=\"CatLibrary.IAnimal.Item*\" text=\"Item\" alt=\"CatLibrary.IAnimal.Item\"/>"
+            "value": "<xref uid=\"CatLibrary.IAnimal.Item*\" text=\"this\" alt=\"this\"/>"
           }
         ]
       },

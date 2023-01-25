@@ -226,7 +226,7 @@
           },
           {
             "lang": "vb",
-            "value": "Person"
+            "value": "New"
           }
         ],
         "nameWithType": [
@@ -236,7 +236,7 @@
           },
           {
             "lang": "vb",
-            "value": "RecordTypes.Person.Person"
+            "value": "New"
           }
         ],
         "fullName": [
@@ -246,7 +246,7 @@
           },
           {
             "lang": "vb",
-            "value": "CSharp9.RecordTypes.Person.Person"
+            "value": "New"
           }
         ],
         "specName": [
@@ -797,31 +797,31 @@
       "nameWithType": [
         {
           "lang": "csharp",
-          "value": "IEquatable<RecordTypes.Person>"
+          "value": "IEquatable<RecordTypes.RecordTypes.Person>"
         },
         {
           "lang": "vb",
-          "value": "IEquatable(Of RecordTypes.Person)"
+          "value": "IEquatable(Of RecordTypes.RecordTypes.Person)"
         }
       ],
       "fullName": [
         {
           "lang": "csharp",
-          "value": "System.IEquatable<CSharp9.RecordTypes.Person>"
+          "value": "System.IEquatable<CSharp9.RecordTypes.CSharp9.RecordTypes.Person>"
         },
         {
           "lang": "vb",
-          "value": "System.IEquatable(Of CSharp9.RecordTypes.Person)"
+          "value": "System.IEquatable(Of CSharp9.RecordTypes.CSharp9.RecordTypes.Person)"
         }
       ],
       "specName": [
         {
           "lang": "csharp",
-          "value": "<xref uid=\"System.IEquatable`1\" text=\"IEquatable\" alt=\"System.IEquatable\"/>&lt;<xref uid=\"CSharp9.RecordTypes.Person\" text=\"RecordTypes.Person\" alt=\"CSharp9.RecordTypes.Person\"/>&gt;"
+          "value": "<xref uid=\"System.IEquatable`1\" text=\"IEquatable\" alt=\"System.IEquatable\"/>&lt;<xref uid=\"CSharp9.RecordTypes\" text=\"RecordTypes\" alt=\"CSharp9.RecordTypes\"/>.<xref uid=\"CSharp9.RecordTypes.Person\" text=\"Person\" alt=\"CSharp9.RecordTypes.Person\"/>&gt;"
         },
         {
           "lang": "vb",
-          "value": "<xref uid=\"System.IEquatable`1\" text=\"IEquatable\" alt=\"System.IEquatable\"/>(Of <xref uid=\"CSharp9.RecordTypes.Person\" text=\"RecordTypes.Person\" alt=\"CSharp9.RecordTypes.Person\"/>)"
+          "value": "<xref uid=\"System.IEquatable`1\" text=\"IEquatable\" alt=\"System.IEquatable\"/>(Of <xref uid=\"CSharp9.RecordTypes\" text=\"RecordTypes\" alt=\"CSharp9.RecordTypes\"/>.<xref uid=\"CSharp9.RecordTypes.Person\" text=\"Person\" alt=\"CSharp9.RecordTypes.Person\"/>)"
         }
       ]
     }

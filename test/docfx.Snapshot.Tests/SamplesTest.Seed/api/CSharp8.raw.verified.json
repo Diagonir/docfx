@@ -69,31 +69,31 @@
       "nameWithType": [
         {
           "lang": "csharp",
-          "value": "DefaultInterfaceMembers.IA"
+          "value": "DefaultInterfaceMembers.DefaultInterfaceMembers.IA"
         },
         {
           "lang": "vb",
-          "value": "DefaultInterfaceMembers.IA"
+          "value": "DefaultInterfaceMembers.DefaultInterfaceMembers.IA"
         }
       ],
       "fullName": [
         {
           "lang": "csharp",
-          "value": "CSharp8.DefaultInterfaceMembers.IA"
+          "value": "CSharp8.DefaultInterfaceMembers.CSharp8.DefaultInterfaceMembers.IA"
         },
         {
           "lang": "vb",
-          "value": "CSharp8.DefaultInterfaceMembers.IA"
+          "value": "CSharp8.DefaultInterfaceMembers.CSharp8.DefaultInterfaceMembers.IA"
         }
       ],
       "specName": [
         {
           "lang": "csharp",
-          "value": "<xref uid=\"CSharp8.DefaultInterfaceMembers.IA\" text=\"DefaultInterfaceMembers.IA\" alt=\"CSharp8.DefaultInterfaceMembers.IA\"/>"
+          "value": "<xref uid=\"CSharp8.DefaultInterfaceMembers\" text=\"DefaultInterfaceMembers\" alt=\"CSharp8.DefaultInterfaceMembers\"/>.<xref uid=\"CSharp8.DefaultInterfaceMembers.IA\" text=\"IA\" alt=\"CSharp8.DefaultInterfaceMembers.IA\"/>"
         },
         {
           "lang": "vb",
-          "value": "<xref uid=\"CSharp8.DefaultInterfaceMembers.IA\" text=\"DefaultInterfaceMembers.IA\" alt=\"CSharp8.DefaultInterfaceMembers.IA\"/>"
+          "value": "<xref uid=\"CSharp8.DefaultInterfaceMembers\" text=\"DefaultInterfaceMembers\" alt=\"CSharp8.DefaultInterfaceMembers\"/>.<xref uid=\"CSharp8.DefaultInterfaceMembers.IA\" text=\"IA\" alt=\"CSharp8.DefaultInterfaceMembers.IA\"/>"
         }
       ],
       "level": 0,
@@ -118,31 +118,31 @@
       "nameWithType": [
         {
           "lang": "csharp",
-          "value": "DefaultInterfaceMembers.Nested"
+          "value": "DefaultInterfaceMembers.DefaultInterfaceMembers.Nested"
         },
         {
           "lang": "vb",
-          "value": "DefaultInterfaceMembers.Nested"
+          "value": "DefaultInterfaceMembers.DefaultInterfaceMembers.Nested"
         }
       ],
       "fullName": [
         {
           "lang": "csharp",
-          "value": "CSharp8.DefaultInterfaceMembers.Nested"
+          "value": "CSharp8.DefaultInterfaceMembers.CSharp8.DefaultInterfaceMembers.Nested"
         },
         {
           "lang": "vb",
-          "value": "CSharp8.DefaultInterfaceMembers.Nested"
+          "value": "CSharp8.DefaultInterfaceMembers.CSharp8.DefaultInterfaceMembers.Nested"
         }
       ],
       "specName": [
         {
           "lang": "csharp",
-          "value": "<xref uid=\"CSharp8.DefaultInterfaceMembers.Nested\" text=\"DefaultInterfaceMembers.Nested\" alt=\"CSharp8.DefaultInterfaceMembers.Nested\"/>"
+          "value": "<xref uid=\"CSharp8.DefaultInterfaceMembers\" text=\"DefaultInterfaceMembers\" alt=\"CSharp8.DefaultInterfaceMembers\"/>.<xref uid=\"CSharp8.DefaultInterfaceMembers.Nested\" text=\"Nested\" alt=\"CSharp8.DefaultInterfaceMembers.Nested\"/>"
         },
         {
           "lang": "vb",
-          "value": "<xref uid=\"CSharp8.DefaultInterfaceMembers.Nested\" text=\"DefaultInterfaceMembers.Nested\" alt=\"CSharp8.DefaultInterfaceMembers.Nested\"/>"
+          "value": "<xref uid=\"CSharp8.DefaultInterfaceMembers\" text=\"DefaultInterfaceMembers\" alt=\"CSharp8.DefaultInterfaceMembers\"/>.<xref uid=\"CSharp8.DefaultInterfaceMembers.Nested\" text=\"Nested\" alt=\"CSharp8.DefaultInterfaceMembers.Nested\"/>"
         }
       ],
       "level": 0,

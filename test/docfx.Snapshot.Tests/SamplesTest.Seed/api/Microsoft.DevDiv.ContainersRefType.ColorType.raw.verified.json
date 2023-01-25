@@ -29,21 +29,21 @@
     "fullName": [
       {
         "lang": "csharp",
-        "value": "Microsoft.DevDiv"
+        "value": "Microsoft.Microsoft.DevDiv"
       },
       {
         "lang": "vb",
-        "value": "Microsoft.DevDiv"
+        "value": "Microsoft.Microsoft.DevDiv"
       }
     ],
     "specName": [
       {
         "lang": "csharp",
-        "value": "<xref uid=\"Microsoft.DevDiv\" text=\"Microsoft.DevDiv\" alt=\"Microsoft.DevDiv\"/>"
+        "value": "<xref uid=\"Microsoft\" text=\"Microsoft\" alt=\"Microsoft\"/>.<xref uid=\"Microsoft.DevDiv\" text=\"DevDiv\" alt=\"Microsoft.DevDiv\"/>"
       },
       {
         "lang": "vb",
-        "value": "<xref uid=\"Microsoft.DevDiv\" text=\"Microsoft.DevDiv\" alt=\"Microsoft.DevDiv\"/>"
+        "value": "<xref uid=\"Microsoft\" text=\"Microsoft\" alt=\"Microsoft\"/>.<xref uid=\"Microsoft.DevDiv\" text=\"DevDiv\" alt=\"Microsoft.DevDiv\"/>"
       }
     ],
     "level": 0
@@ -122,31 +122,31 @@
             "nameWithType": [
               {
                 "lang": "csharp",
-                "value": "ContainersRefType.ColorType"
+                "value": "ContainersRefType.ContainersRefType.ColorType"
               },
               {
                 "lang": "vb",
-                "value": "ContainersRefType.ColorType"
+                "value": "ContainersRefType.ContainersRefType.ColorType"
               }
             ],
             "fullName": [
               {
                 "lang": "csharp",
-                "value": "Microsoft.DevDiv.ContainersRefType.ColorType"
+                "value": "Microsoft.DevDiv.ContainersRefType.Microsoft.DevDiv.ContainersRefType.ColorType"
               },
               {
                 "lang": "vb",
-                "value": "Microsoft.DevDiv.ContainersRefType.ColorType"
+                "value": "Microsoft.DevDiv.ContainersRefType.Microsoft.DevDiv.ContainersRefType.ColorType"
               }
             ],
             "specName": [
               {
                 "lang": "csharp",
-                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ContainersRefType.ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
+                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType\" text=\"ContainersRefType\" alt=\"Microsoft.DevDiv.ContainersRefType\"/>.<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
               },
               {
                 "lang": "vb",
-                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ContainersRefType.ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
+                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType\" text=\"ContainersRefType\" alt=\"Microsoft.DevDiv.ContainersRefType\"/>.<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
               }
             ]
           }
@@ -247,31 +247,31 @@
             "nameWithType": [
               {
                 "lang": "csharp",
-                "value": "ContainersRefType.ColorType"
+                "value": "ContainersRefType.ContainersRefType.ColorType"
               },
               {
                 "lang": "vb",
-                "value": "ContainersRefType.ColorType"
+                "value": "ContainersRefType.ContainersRefType.ColorType"
               }
             ],
             "fullName": [
               {
                 "lang": "csharp",
-                "value": "Microsoft.DevDiv.ContainersRefType.ColorType"
+                "value": "Microsoft.DevDiv.ContainersRefType.Microsoft.DevDiv.ContainersRefType.ColorType"
               },
               {
                 "lang": "vb",
-                "value": "Microsoft.DevDiv.ContainersRefType.ColorType"
+                "value": "Microsoft.DevDiv.ContainersRefType.Microsoft.DevDiv.ContainersRefType.ColorType"
               }
             ],
             "specName": [
               {
                 "lang": "csharp",
-                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ContainersRefType.ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
+                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType\" text=\"ContainersRefType\" alt=\"Microsoft.DevDiv.ContainersRefType\"/>.<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
               },
               {
                 "lang": "vb",
-                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ContainersRefType.ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
+                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType\" text=\"ContainersRefType\" alt=\"Microsoft.DevDiv.ContainersRefType\"/>.<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
               }
             ]
           }
@@ -372,31 +372,31 @@
             "nameWithType": [
               {
                 "lang": "csharp",
-                "value": "ContainersRefType.ColorType"
+                "value": "ContainersRefType.ContainersRefType.ColorType"
               },
               {
                 "lang": "vb",
-                "value": "ContainersRefType.ColorType"
+                "value": "ContainersRefType.ContainersRefType.ColorType"
               }
             ],
             "fullName": [
               {
                 "lang": "csharp",
-                "value": "Microsoft.DevDiv.ContainersRefType.ColorType"
+                "value": "Microsoft.DevDiv.ContainersRefType.Microsoft.DevDiv.ContainersRefType.ColorType"
               },
               {
                 "lang": "vb",
-                "value": "Microsoft.DevDiv.ContainersRefType.ColorType"
+                "value": "Microsoft.DevDiv.ContainersRefType.Microsoft.DevDiv.ContainersRefType.ColorType"
               }
             ],
             "specName": [
               {
                 "lang": "csharp",
-                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ContainersRefType.ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
+                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType\" text=\"ContainersRefType\" alt=\"Microsoft.DevDiv.ContainersRefType\"/>.<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
               },
               {
                 "lang": "vb",
-                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ContainersRefType.ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
+                "value": "<xref uid=\"Microsoft.DevDiv.ContainersRefType\" text=\"ContainersRefType\" alt=\"Microsoft.DevDiv.ContainersRefType\"/>.<xref uid=\"Microsoft.DevDiv.ContainersRefType.ColorType\" text=\"ColorType\" alt=\"Microsoft.DevDiv.ContainersRefType.ColorType\"/>"
               }
             ]
           }
@@ -502,21 +502,21 @@
     "fullName": [
       {
         "lang": "csharp",
-        "value": "Microsoft.DevDiv"
+        "value": "Microsoft.Microsoft.DevDiv"
       },
       {
         "lang": "vb",
-        "value": "Microsoft.DevDiv"
+        "value": "Microsoft.Microsoft.DevDiv"
       }
     ],
     "specName": [
       {
         "lang": "csharp",
-        "value": "<xref uid=\"Microsoft.DevDiv\" text=\"Microsoft.DevDiv\" alt=\"Microsoft.DevDiv\"/>"
+        "value": "<xref uid=\"Microsoft\" text=\"Microsoft\" alt=\"Microsoft\"/>.<xref uid=\"Microsoft.DevDiv\" text=\"DevDiv\" alt=\"Microsoft.DevDiv\"/>"
       },
       {
         "lang": "vb",
-        "value": "<xref uid=\"Microsoft.DevDiv\" text=\"Microsoft.DevDiv\" alt=\"Microsoft.DevDiv\"/>"
+        "value": "<xref uid=\"Microsoft\" text=\"Microsoft\" alt=\"Microsoft\"/>.<xref uid=\"Microsoft.DevDiv\" text=\"DevDiv\" alt=\"Microsoft.DevDiv\"/>"
       }
     ],
     "level": 0

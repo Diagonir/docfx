@@ -43,8 +43,10 @@ namespace Microsoft.DocAsCode.Metadata.ManagedReference
         internal string AddReference(ISymbol symbol, Dictionary<string, ReferenceItem> references, SymbolVisitorAdapter adapter)
         {
             var id = VisitorHelper.GetId(symbol);
+            if (references.ContainsKey(id))
+                return id;
 
-            ReferenceItem reference = new ReferenceItem
+            var reference = new ReferenceItem
             {
                 Parts = new SortedList<SyntaxLanguage, List<LinkItem>>(),
                 IsDefinition = symbol.IsDefinition,
@@ -52,15 +54,7 @@ namespace Microsoft.DocAsCode.Metadata.ManagedReference
             };
             GenerateReferenceInternal(symbol, reference, adapter);
 
-            if (!references.ContainsKey(id))
-            {
-                references[id] = reference;
-            }
-            else
-            {
-                references[id].Merge(reference);
-            }
-
+            references[id] = reference;
             return id;
         }
 
@@ -77,9 +71,12 @@ namespace Microsoft.DocAsCode.Metadata.ManagedReference
 
         internal string AddOverloadReference(ISymbol symbol, Dictionary<string, ReferenceItem> references, SymbolVisitorAdapter adapter)
         {
-            string uidBody = VisitorHelper.GetOverloadIdBody(symbol);
+            var uidBody = VisitorHelper.GetOverloadIdBody(symbol);
+            var uid = uidBody + "*";
+            if (references.ContainsKey(uid))
+                return uid;
 
-            ReferenceItem reference = new ReferenceItem
+            var reference = new ReferenceItem
             {
                 Parts = new SortedList<SyntaxLanguage, List<LinkItem>>(),
                 IsDefinition = true,
@@ -87,16 +84,7 @@ namespace Microsoft.DocAsCode.Metadata.ManagedReference
             };
             GenerateReferenceInternal(symbol, reference, adapter, true);
 
-            var uid = uidBody + "*";
-            if (!references.ContainsKey(uid))
-            {
-                references[uid] = reference;
-            }
-            else
-            {
-                references[uid].Merge(reference);
-            }
-
+            references[uid] = reference;
             return uid;
         }
 
@@ -113,7 +101,12 @@ namespace Microsoft.DocAsCode.Metadata.ManagedReference
             {
                 throw new InvalidDataException($"Fail to parse id for symbol {symbol.MetadataName} in namespace {symbol.ContainingSymbol?.MetadataName}.");
             }
-            ReferenceItem reference = new ReferenceItem
+            if (references.ContainsKey(id))
+            {
+                return id;
+            }
+
+            var reference = new ReferenceItem
             {
                 Parts = new SortedList<SyntaxLanguage, List<LinkItem>>()
             };
@@ -134,15 +127,7 @@ namespace Microsoft.DocAsCode.Metadata.ManagedReference
             reference.Parent = GetReferenceParent(originalSymbol, typeGenericParameters, methodGenericParameters, references, adapter);
             reference.CommentId = VisitorHelper.GetCommentId(originalSymbol);
 
-            if (!references.ContainsKey(id))
-            {
-                references[id] = reference;
-            }
-            else
-            {
-                references[id].Merge(reference);
-            }
-
+            references[id] = reference;
             return id;
         }
 

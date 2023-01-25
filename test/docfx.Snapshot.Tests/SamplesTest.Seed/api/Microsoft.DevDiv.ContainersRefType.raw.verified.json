@@ -29,21 +29,21 @@
     "fullName": [
       {
         "lang": "csharp",
-        "value": "Microsoft.DevDiv"
+        "value": "Microsoft.Microsoft.DevDiv"
       },
       {
         "lang": "vb",
-        "value": "Microsoft.DevDiv"
+        "value": "Microsoft.Microsoft.DevDiv"
       }
     ],
     "specName": [
       {
         "lang": "csharp",
-        "value": "<xref uid=\"Microsoft.DevDiv\" text=\"Microsoft.DevDiv\" alt=\"Microsoft.DevDiv\"/>"
+        "value": "<xref uid=\"Microsoft\" text=\"Microsoft\" alt=\"Microsoft\"/>.<xref uid=\"Microsoft.DevDiv\" text=\"DevDiv\" alt=\"Microsoft.DevDiv\"/>"
       },
       {
         "lang": "vb",
-        "value": "<xref uid=\"Microsoft.DevDiv\" text=\"Microsoft.DevDiv\" alt=\"Microsoft.DevDiv\"/>"
+        "value": "<xref uid=\"Microsoft\" text=\"Microsoft\" alt=\"Microsoft\"/>.<xref uid=\"Microsoft.DevDiv\" text=\"DevDiv\" alt=\"Microsoft.DevDiv\"/>"
       }
     ],
     "level": 0
@@ -761,21 +761,21 @@
     "fullName": [
       {
         "lang": "csharp",
-        "value": "Microsoft.DevDiv"
+        "value": "Microsoft.Microsoft.DevDiv"
       },
       {
         "lang": "vb",
-        "value": "Microsoft.DevDiv"
+        "value": "Microsoft.Microsoft.DevDiv"
       }
     ],
     "specName": [
       {
         "lang": "csharp",
-        "value": "<xref uid=\"Microsoft.DevDiv\" text=\"Microsoft.DevDiv\" alt=\"Microsoft.DevDiv\"/>"
+        "value": "<xref uid=\"Microsoft\" text=\"Microsoft\" alt=\"Microsoft\"/>.<xref uid=\"Microsoft.DevDiv\" text=\"DevDiv\" alt=\"Microsoft.DevDiv\"/>"
       },
       {
         "lang": "vb",
-        "value": "<xref uid=\"Microsoft.DevDiv\" text=\"Microsoft.DevDiv\" alt=\"Microsoft.DevDiv\"/>"
+        "value": "<xref uid=\"Microsoft\" text=\"Microsoft\" alt=\"Microsoft\"/>.<xref uid=\"Microsoft.DevDiv\" text=\"DevDiv\" alt=\"Microsoft.DevDiv\"/>"
       }
     ],
     "level": 0
@@ -805,7 +805,7 @@
       "name": [
         {
           "lang": "csharp",
-          "value": "Equals(Object)"
+          "value": "Equals(Object?)"
         },
         {
           "lang": "vb",
@@ -815,7 +815,7 @@
       "nameWithType": [
         {
           "lang": "csharp",
-          "value": "ValueType.Equals(Object)"
+          "value": "ValueType.Equals(Object?)"
         },
         {
           "lang": "vb",
@@ -825,7 +825,7 @@
       "fullName": [
         {
           "lang": "csharp",
-          "value": "System.ValueType.Equals(System.Object)"
+          "value": "System.ValueType.Equals(System.Object?)"
         },
         {
           "lang": "vb",
@@ -835,7 +835,7 @@
       "specName": [
         {
           "lang": "csharp",
-          "value": "<xref uid=\"System.ValueType.Equals(System.Object)\" text=\"Equals\" alt=\"System.ValueType.Equals\"/>(<xref uid=\"System.Object\" text=\"Object\" alt=\"System.Object\"/>)"
+          "value": "<xref uid=\"System.ValueType.Equals(System.Object)\" text=\"Equals\" alt=\"System.ValueType.Equals\"/>(<xref uid=\"System.Object\" text=\"Object\" alt=\"System.Object\"/>?)"
         },
         {
           "lang": "vb",

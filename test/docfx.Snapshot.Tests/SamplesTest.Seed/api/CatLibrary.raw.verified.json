@@ -56,44 +56,15 @@
     {
       "uid": "CatLibrary.CatException`1",
       "isExtensionMethod": false,
-      "name": [
-        {
-          "lang": "csharp",
-          "value": "CatException<T>"
-        },
-        {
-          "lang": "vb",
-          "value": "CatException(Of T)"
-        }
-      ],
-      "nameWithType": [
-        {
-          "lang": "csharp",
-          "value": "CatException<T>"
-        },
-        {
-          "lang": "vb",
-          "value": "CatException(Of T)"
-        }
-      ],
-      "fullName": [
-        {
-          "lang": "csharp",
-          "value": "CatLibrary.CatException<T>"
-        },
-        {
-          "lang": "vb",
-          "value": "CatLibrary.CatException(Of T)"
-        }
-      ],
+      "isExternal": true,
       "specName": [
         {
           "lang": "csharp",
-          "value": "<xref uid=\"CatLibrary.CatException`1\" text=\"CatException\" alt=\"CatLibrary.CatException\"/>&lt;T&gt;"
+          "value": "<xref uid=\"CatLibrary.CatException`1\" displayProperty=\"name\" altProperty=\"fullName\"/>"
         },
         {
           "lang": "vb",
-          "value": "<xref uid=\"CatLibrary.CatException`1\" text=\"CatException\" alt=\"CatLibrary.CatException\"/>(Of T)"
+          "value": "<xref uid=\"CatLibrary.CatException`1\" displayProperty=\"name\" altProperty=\"fullName\"/>"
         }
       ],
       "level": 0,
@@ -203,7 +174,6 @@
     {
       "uid": "CatLibrary.IAnimal",
       "isExtensionMethod": false,
-      "parent": "CatLibrary",
       "name": [
         {
           "lang": "csharp",
@@ -253,7 +223,6 @@
     {
       "uid": "CatLibrary.ICat",
       "isExtensionMethod": false,
-      "parent": "CatLibrary",
       "name": [
         {
           "lang": "csharp",

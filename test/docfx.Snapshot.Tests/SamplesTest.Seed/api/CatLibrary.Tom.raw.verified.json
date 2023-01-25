@@ -348,44 +348,14 @@
         {
           "type": {
             "uid": "CatLibrary.CatException`1",
-            "name": [
-              {
-                "lang": "csharp",
-                "value": "CatException<T>"
-              },
-              {
-                "lang": "vb",
-                "value": "CatException(Of T)"
-              }
-            ],
-            "nameWithType": [
-              {
-                "lang": "csharp",
-                "value": "CatException<T>"
-              },
-              {
-                "lang": "vb",
-                "value": "CatException(Of T)"
-              }
-            ],
-            "fullName": [
-              {
-                "lang": "csharp",
-                "value": "CatLibrary.CatException<T>"
-              },
-              {
-                "lang": "vb",
-                "value": "CatLibrary.CatException(Of T)"
-              }
-            ],
             "specName": [
               {
                 "lang": "csharp",
-                "value": "<xref uid=\"CatLibrary.CatException`1\" text=\"CatException\" alt=\"CatLibrary.CatException\"/>&lt;T&gt;"
+                "value": "<xref uid=\"CatLibrary.CatException`1\" displayProperty=\"name\" altProperty=\"fullName\"/>"
               },
               {
                 "lang": "vb",
-                "value": "<xref uid=\"CatLibrary.CatException`1\" text=\"CatException\" alt=\"CatLibrary.CatException\"/>(Of T)"
+                "value": "<xref uid=\"CatLibrary.CatException`1\" displayProperty=\"name\" altProperty=\"fullName\"/>"
               }
             ]
           },

@@ -167,7 +167,7 @@
           "name": [
             {
               "lang": "csharp",
-              "value": "List<String>"
+              "value": "List<String?>?"
             },
             {
               "lang": "vb",
@@ -177,7 +177,7 @@
           "nameWithType": [
             {
               "lang": "csharp",
-              "value": "List<String>"
+              "value": "List<String?>?"
             },
             {
               "lang": "vb",
@@ -187,7 +187,7 @@
           "fullName": [
             {
               "lang": "csharp",
-              "value": "System.Collections.Generic.List<System.String>"
+              "value": "System.Collections.Generic.List<System.String?>?"
             },
             {
               "lang": "vb",
@@ -197,7 +197,7 @@
           "specName": [
             {
               "lang": "csharp",
-              "value": "<xref uid=\"System.Collections.Generic.List`1\" text=\"List\" alt=\"System.Collections.Generic.List\"/>&lt;<xref uid=\"System.String\" text=\"String\" alt=\"System.String\"/>&gt;"
+              "value": "<xref uid=\"System.Collections.Generic.List`1\" text=\"List\" alt=\"System.Collections.Generic.List\"/>&lt;<xref uid=\"System.String\" text=\"String\" alt=\"System.String\"/>?&gt;?"
             },
             {
               "lang": "vb",

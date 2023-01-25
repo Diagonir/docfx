@@ -216,46 +216,15 @@
       "uid": "System.Exception",
       "isEii": false,
       "isExtensionMethod": false,
-      "parent": "System",
       "isExternal": true,
-      "name": [
-        {
-          "lang": "csharp",
-          "value": "Exception"
-        },
-        {
-          "lang": "vb",
-          "value": "Exception"
-        }
-      ],
-      "nameWithType": [
-        {
-          "lang": "csharp",
-          "value": "Exception"
-        },
-        {
-          "lang": "vb",
-          "value": "Exception"
-        }
-      ],
-      "fullName": [
-        {
-          "lang": "csharp",
-          "value": "System.Exception"
-        },
-        {
-          "lang": "vb",
-          "value": "System.Exception"
-        }
-      ],
       "specName": [
         {
           "lang": "csharp",
-          "value": "<xref uid=\"System.Exception\" text=\"Exception\" alt=\"System.Exception\"/>"
+          "value": "<xref uid=\"System.Exception\" displayProperty=\"name\" altProperty=\"fullName\"/>"
         },
         {
           "lang": "vb",
-          "value": "<xref uid=\"System.Exception\" text=\"Exception\" alt=\"System.Exception\"/>"
+          "value": "<xref uid=\"System.Exception\" displayProperty=\"name\" altProperty=\"fullName\"/>"
         }
       ],
       "level": 0,
